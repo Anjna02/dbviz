@@ -1,0 +1,41 @@
+.plan-node {
+  border-left: 2px solid #444;
+  margin-left: 14px;
+  padding-left: 12px;
+  margin-top: 10px;
+  font-family: monospace;
+}
+
+.plan-header {
+  background: #1e1e1e;
+  color: #eee;
+  padding: 8px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  transition: background 0.2s ease, border-left 0.2s ease;
+}
+
+.plan-header:hover {
+  background: #2a2a2a;
+}
+
+.meta {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.condition {
+  color: #f5a623;
+  margin-top: 4px;
+}
+
+.index {
+  color: #7ed321;
+  margin-top: 4px;
+}
+
+.children {
+  margin-top: 6px;
+}
